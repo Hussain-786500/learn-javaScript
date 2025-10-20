@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project-1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <!-- logo -->
+      <div class="logo">Bonsai</div>
+
+      <!-- navigation -->
+      <nav>
+
+         <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+        <ul id="Product" class="nav-list">
+          <li><a href="https://www.hellobonsai.com/">Product</a></li>
+          <li><a href="https://www.renderforest.com/templates">Templates</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Pricing">Pricing</a></li>
+          <li><a href="https://example.com/reviews">Reviews</a></li>
+        </ul>
+      </nav>
+      <!-- login BOX -->
+      <div class="right">
+        <a href="#" class="login">LOG IN</a>
+        <a href="#" class="start-btn">START FREE</a>
+      </div>
+    </header>
+
+    <!-- below value -->
+  <section class="plans-section">
+    
+  <div class="toggle-plans">
+    <div class="text">
+         <h1>Plan & Pricing</h1>
+      </div>
+    <div class="toggle">
+      <p class="offer">2 MONTHS FREE...</p>
+      
+      <h2>
+        <span class="active">MONTHLY</span>
+        <i class="fa-solid fa-toggle-off"  id="toggleBtn"></i>
+        <span >YEARLY</span>
+      </h2>
+       <div class="price">₹choose price</div>
+    </div>
+  </div>
+
+</section>
+
+<!-- login modal -->
+
+<div id="loginModal" class="modal">
+
+    <abbr title="close">
+      <span class="closeBtn">&times;</span>
+    </abbr>
+
+    <h2 class="log">Login</h2>
+
+    <form id="loginForm">
+       <label class="email"  for="email">Email</label>
+    <abbr title="fill email">
+       <input  class="enter"   type="email" id="email"  name="email" placeholder="Enter your email">
+    </abbr>
+      <label  class="password"  for="password">Password</label>
+    <abbr title="fill password">
+       <input  class="lock"  type="password" id="password"  name="password" placeholder="Enter your password">
+    </abbr>
+       <button class="start-Btn">Submit</button>
+    </form>
+
+</div>
+
+
+</body>
+
+  <script src="hiii.js"></script>
+</html>
